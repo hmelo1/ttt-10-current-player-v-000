@@ -6,7 +6,6 @@ def turn_count(board)
     else
       print ("Empty")
     end
-    end
   end
 end
 
