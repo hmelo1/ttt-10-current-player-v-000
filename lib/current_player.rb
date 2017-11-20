@@ -3,9 +3,6 @@ def turn_count(board)
   board.each do |turn|
     if (turn != " ")
       turn_count += 1
-      print("#{turn_count}")
-    else
-      print ("Empty")
     end
   end
 end
