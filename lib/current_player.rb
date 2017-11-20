@@ -10,7 +10,8 @@ end
 
 def current_player(board)
   turn_count(board) = turn
-  if ( % 2)
+  print ("#{turn}")
+  if ( turn % 2)
     print ("X")
   else
     print ("O")
