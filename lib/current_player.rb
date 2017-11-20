@@ -9,6 +9,5 @@ def turn_count(board)
 end
 
 def current_player(board)
-  turn_count(board) = turn
   print ("#{turn}")
 end
